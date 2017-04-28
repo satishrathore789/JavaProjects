@@ -80,6 +80,7 @@ public class Search extends HttpServlet {
 			// TODO Auto-generated catch block
 			LOGGER.error("----i am in catch block------------"+e.getMessage());
 			e.printStackTrace();
+			pw.println("hello");
 		}
 		
 	}

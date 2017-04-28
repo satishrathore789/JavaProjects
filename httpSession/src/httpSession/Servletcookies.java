@@ -39,7 +39,7 @@ public class Servletcookies extends HttpServlet {
 		Cookie ck=new Cookie("uname",s);
 		response.addCookie(ck);
 		  request.getRequestDispatcher("Servlet2").include(request, response);
-		  LOGGER.info("-----end if block---");
+		  //LOGGER.info("-----end if block---");
 		}
 		else {
 			 LOGGER.info("------else block------");

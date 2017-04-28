@@ -43,8 +43,8 @@ public class ServletCookies2 extends HttpServlet {
 		  	else
 			{
 				pw.println("login first then ");
-				pw.println("hi man");
-				pw.println("its not a easy task");
+			//	pw.println("hi man");
+			//	pw.println("its not a easy task");
 				try {
 					request.getRequestDispatcher("index").include(request, response);
 				} catch (ServletException | IOException e) {

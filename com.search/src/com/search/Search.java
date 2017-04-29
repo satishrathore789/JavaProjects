@@ -82,6 +82,7 @@ public class Search extends HttpServlet {
 			e.printStackTrace();
 			pw.println("hello");
 			pw.println("this is command line change");
+			pw.println("this is second command line changed");
 		}
 		
 	}

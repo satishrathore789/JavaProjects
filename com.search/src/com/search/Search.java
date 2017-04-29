@@ -81,6 +81,7 @@ public class Search extends HttpServlet {
 			LOGGER.error("----i am in catch block------------"+e.getMessage());
 			e.printStackTrace();
 			pw.println("hello");
+			pw.println("this is command line change");
 		}
 		
 	}
